@@ -1,0 +1,11 @@
+width_plan=int(input())
+height_plan=int(input())
+width_muz=int(input())
+height_muz=int(input())
+plan=width_plan*height_plan
+muz=width_muz*height_muz
+number_of_muz=plan/muz
+if(int(number_of_muz)==True):
+    print(number_of_muz)
+else:
+    print(int(number_of_muz)+1)

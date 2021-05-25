@@ -1,8 +1,12 @@
 import matplotlib.pyplot as plt
-import pandas as pd
+import random
+my_list_x=[]
+my_list_y=[]
+for i in range(0,1000):
+    z=random.randint(10,100)
+    my_list_y.append(z)
+for i in range(0,1000):
+    my_list_x.append(i)
 
-x=[1,2,4,6,10,30]
-y=[10,21,34,69,70,85]
-
-plt.plot(x,y)
+plt.plot(my_list_x,my_list_y,'rs')
 plt.show()
